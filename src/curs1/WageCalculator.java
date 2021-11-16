@@ -9,14 +9,14 @@ public class WageCalculator {
         tester1.setNume("Gabi");
         tester1.setRatePerHour(40);
         tester1.setAge(28);
-        System.out.println(tester1.getNume());
+        System.out.println("Tester1 este " + tester1.getNume());
 
 
         Tester tester2 =new Tester();
         tester2.setNume("Bogdan");
         tester2.setRatePerHour(65);
         tester2.setAge(25);
-        System.out.println(tester2.getNume());
+        System.out.println("Tester2 este " + tester2.getNume());
 
         WageCalculator calc = new WageCalculator();
         System.out.println("Salariul lui " + tester1.getNume() + " este " + calc.calculeazaSalariu(tester1.getRatePerHour()));

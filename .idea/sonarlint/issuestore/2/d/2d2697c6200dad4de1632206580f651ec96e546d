@@ -1,8 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(šÍº
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¸ú•Â
-S	java:S106"9Replace this use of System.out or System.err by a logger.(äŒú“ÿÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÛÔóüÿÿÿÿ8ö“œ¢Ğ/
-t
-java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "salariu".(¹¸æm
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çıìùÿÿÿÿ
