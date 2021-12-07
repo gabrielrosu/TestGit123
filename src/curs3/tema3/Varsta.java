@@ -1,5 +1,6 @@
 package curs3.tema3;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Varsta {
@@ -12,9 +13,12 @@ public class Varsta {
     }
 
     public void verificaVarsta() {
-        if (vrs < 18) {
+        if (vrs >= 0 &&vrs < 18) {
             System.out.println("Esti minor");
-        } else if (vrs >= 18 && vrs <= 65) {
+        }else if (vrs < 0){
+            System.out.println("Varsta invalida");
+        }
+        else if (vrs >= 18 && vrs <= 65) {
             System.out.println("Esti adult");
         } else {
             System.out.println("Esti batran");
