@@ -8,6 +8,7 @@ public class LoginProblem {
         String validUserName = "TestUser";
         int validPassword = 1234;
         int i=3;
+        int maxAttemps = 0;
         do {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter the UserName: ");
@@ -20,8 +21,12 @@ public class LoginProblem {
             }
             else {
                 System.out.println("Login Error");
+                maxAttemps++;
             }
             i--;
         }while ( i!=0);
+        if(maxAttemps == 3) {
+            System.out.println("Maximum attempts reached. User blocked");
+        }
     }
 }

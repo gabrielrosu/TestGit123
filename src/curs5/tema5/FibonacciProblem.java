@@ -6,7 +6,7 @@ public class FibonacciProblem {
         int[] sirFibonacciFor = new int[9];
         sirFibonacciFor[0] = 0;
         sirFibonacciFor[1] = 1;
-        System.out.print("Structura While - Seria Fibonacci pentru 9 numere: " + sirFibonacciFor[0] + " " +  sirFibonacciFor[1] + " ");
+        System.out.print("Structura For - Seria Fibonacci pentru 9 numere: " + sirFibonacciFor[0] + " " +  sirFibonacciFor[1] + " ");
         for (int i = 2; i < 9; i++) {
             sirFibonacciFor[i] = sirFibonacciFor[i - 2] + sirFibonacciFor[i - 1];
             System.out.print(sirFibonacciFor[i] + " ");
