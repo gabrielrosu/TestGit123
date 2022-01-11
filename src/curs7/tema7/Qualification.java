@@ -6,7 +6,7 @@ public class Qualification extends  Teacher{
     }
 
     public void verify(){
-    if (getCourse().equals("Java") && getExperianceYears() == 3 && getSchedule().equals("Afternoon")){
+    if (getCourse().equals("Java") && getExperianceYears() > 3 && getSchedule().equals("Afternoon")){
         System.out.println("You qualify to teach at this school!");
     } else {
         System.out.println("You do not qualify!");
@@ -14,10 +14,10 @@ public class Qualification extends  Teacher{
     }
 
     public static void main(String[] args) {
-        Qualification qualification = new Qualification("Java", 3, "Afternoon");
+        Qualification qualification = new Qualification("Java", 4, "Afternoon");
         qualification.verify();
 
-        Qualification qualification2 = new Qualification("Javaa", 4, "Afternoon");
+        Qualification qualification2 = new Qualification("Javaa", 3, "Afternoon");
         qualification2.verify();
     }
 }
