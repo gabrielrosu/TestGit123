@@ -11,7 +11,7 @@ public class Vehicul {
         this.nivelPoluare = nivelPoluare;
         this.vitezaMedie = vitezaMedie;
     }
-    
+
     public String nume() {
         String nume = null;
         return nume;
