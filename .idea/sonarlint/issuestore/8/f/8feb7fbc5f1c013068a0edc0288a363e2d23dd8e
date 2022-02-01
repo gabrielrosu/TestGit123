@@ -1,0 +1,18 @@
+
+E
+java:S2440"#Remove this instantiation of "Car".(­¼Ñ‡ûÿÿÿÿ8Œ½ÿØ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ØØŞÿÿÿÿÿ
+W
+java:S2209"5Change this instance-reference to a static reference.(ØØŞÿÿÿÿÿ8 Œ½ÿØ/
+E
+java:S2440	"#Remove this instantiation of "Car".(Ç§î®ıÿÿÿÿ8 Œ½ÿØ/
+Q
+java:S2209
+"5Change this instance-reference to a static reference.(ËÜ ~8¡Œ½ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(£ì8ò¨€ÿØ/
+R
+java:S2209"5Change this instance-reference to a static reference.(£ì8¡Œ½ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ØØŞÿÿÿÿÿ8ØÍ€ÿØ/
+W
+java:S2209"5Change this instance-reference to a static reference.(ØØŞÿÿÿÿÿ8¢Œ½ÿØ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è¹şúÿÿÿÿ
